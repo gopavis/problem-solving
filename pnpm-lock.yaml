@@ -4,6 +4,18 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    ts-node:
+      specifier: ^10.9.2
+      version: 10.9.2
+    typescript:
+      specifier: ^5.8.3
+      version: 5.8.3
+    vite:
+      specifier: ^7.0.0
+      version: 7.0.0
+
 importers:
 
   .:
@@ -16,6 +28,18 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^7.0.0
+        version: 7.0.0(@types/node@24.0.7)
+
+  packages/sliding-window:
+    devDependencies:
+      ts-node:
+        specifier: 'catalog:'
+        version: 10.9.2(@types/node@24.0.7)(typescript@5.8.3)
+      typescript:
+        specifier: 'catalog:'
+        version: 5.8.3
+      vite:
+        specifier: 'catalog:'
         version: 7.0.0(@types/node@24.0.7)
 
   packages/two-pointer: {}

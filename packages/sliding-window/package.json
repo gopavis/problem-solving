@@ -1,5 +1,5 @@
 {
-  "name": "two-pointer",
+  "name": "sliding-window",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,5 +7,10 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "ts-node": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:"
+  }
 }
