@@ -1,0 +1,12 @@
+{
+  "name": "problem-solving",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:"
+  }
+}
